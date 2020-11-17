@@ -1,0 +1,41 @@
+.navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+      padding: 25px;
+    }
+    .row.content {height: 450px}
+    .sidenav {
+      padding-top: 20px;
+      background-color: #f1f1f1;
+      height: 100%;
+      text-align: center;
+      margin-left: 100px;
+
+    }
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;} 
+    }
+    .logo{
+      width: 80px;
+      margin-top: -28px;
+    }
+    img{
+      width: 150px;
+    }
+    @media (prefers-color-scheme: dark) {
+     body {
+      /* dark styles here */
+    }
+}
+.container1{
+  border: 1px black solid;
+}
